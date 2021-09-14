@@ -69,12 +69,13 @@
   .btn {
     @include btn-post-nav;
 
-    color: var(--link-color);
+    // color: var(--link-color);
+    color: rgb(255, 255, 255);
 
     &:hover {
-      background: #2a408e;
-      color: #fff;
-      border-color: #2a408e;
+      background: rgb(44, 44, 44);
+      color: rgb(255, 255, 255);
+      border-color: rgb(75, 75, 75);
     }
 
     &.disabled {
@@ -83,7 +84,7 @@
       pointer-events: auto;
       cursor: not-allowed;
       background: none;
-      color: gray;
+      color: rgb(128, 128, 128);
 
       &:hover {
         border-color: none;
