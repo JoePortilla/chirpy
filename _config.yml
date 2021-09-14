@@ -32,17 +32,21 @@ github:
 twitter:
   username: JoePortilla            # change to your twitter username
 
+linkedin:
+  username: K
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Joseph Santiago Portilla
+  name: Joseph Santiago Portilla Martínez
   email: jsportilla@udenar.edu.co             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/JoePortilla 
+    - https://www.linkedin.com/in/portillajs
     - https://github.com/JoePortilla
     # Uncomment below to add more social links
-    - https://www.linkedin.com/in/portillajs
+    
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 # --------------------------
@@ -75,7 +79,7 @@ theme_mode:   dark # [light|dark]
 img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
-avatar: assets\img\LOGO.jpg
+avatar: assets/img/LOGO.jpg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
